@@ -14799,9 +14799,9 @@ body:not(.device-touch) .tagcloud a {
 
 /* Pagination secondary */
 .pagination.pagination-secondary .page-item .page-link {
-	background-color: #6c757d;
+	background-color:#2C5697;
 	background-color: var(--secondary);
-	border-color: #6c757d;
+	border-color: #2C5697;
 	border-color: var(--secondary);
 	color: #FFF;
 }
