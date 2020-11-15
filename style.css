@@ -98,7 +98,15 @@
 @media (min-width: 1440px) {
 	.container { max-width: 1320px; }
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@font-face {
+  font-family: "Recoleta-SemiBold";
 
+  src: "ELEMENTOS/ELEMENTOS/FONTS/Recoleta-SemiBold.ttf");
+}
 
 /* ----------------------------------------------------------------
 	Basic
@@ -149,7 +157,7 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Medium', sans-serif;
 }
 
 a {
@@ -185,7 +193,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto bold', sans-serif;
 }
 
 h5,
@@ -193,7 +201,9 @@ h6 { margin-bottom: 20px; }
 
 h1 { font-size: 36px; }
 
-h2 { font-size: 30px; }
+h2 { font-size: 30px; 
+	font-family: 'Recoleta-SemiBold', sans-serif;
+}
 
 h3 { font-size: 1.5rem; }
 
@@ -247,7 +257,7 @@ table,
 fieldset,
 form { margin-bottom: 30px; }
 
-small { font-family: 'Lato', sans-serif; }
+small { font-family: 'Roboto', sans-serif; }
 
 
 @media (max-width: 1200px) {
@@ -396,11 +406,11 @@ span.middot {
 
 .nolineheight { line-height: 0 !important; }
 
-.font-body { font-family: 'Lato', sans-serif; }
+.font-body { font-family: 'Roboto Medium', sans-serif; }
 
-.font-primary { font-family: 'Poppins', sans-serif; }
+.font-primary { font-family: 'Roboto Medium', sans-serif; }
 
-.font-secondary { font-family: 'PT Serif', serif; }
+.font-secondary { font-family: 'Roboto Medium', serif; }
 
 .font-weight-extralight {
 	font-weight: 100 !important;
@@ -3089,7 +3099,7 @@ html[xmlns] .slider-wrap {
 
 #header-wrap {
 	position: relative;
-	background-color: #FFF;
+	background-color: #009681;
 	width: 100%;
 }
 
@@ -3237,7 +3247,7 @@ html[xmlns] .slider-wrap {
 		position: fixed;
 		top: 0;
 		left: 0;
-		background-color: #FFF;
+		background-color: #009681;
 		box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	}
 
@@ -3253,7 +3263,7 @@ html[xmlns] .slider-wrap {
 	-----------------------------------------------------------------*/
 
 	.sticky-header .style-3 .menu-container > .menu-item > .menu-link {
-		margin: 0;
+		margin: 2rem;
 		border-radius: 0;
 	}
 
@@ -3263,7 +3273,7 @@ html[xmlns] .slider-wrap {
 	.sticky-header .style-4 .menu-container > .menu-item > .menu-link {
 		padding-top: 8px;
 		padding-bottom: 8px;
-		margin: 10px 0;
+		margin: 2rem;
 	}
 
 	/* Primary Menu - Style 5
@@ -3415,6 +3425,21 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
+/* ----------------------------------------------------------------
+	Redes Header
+-----------------------------------------------------------------*/
+
+header .redes img{
+  height: 50px;
+  width: 50px;
+  float:right;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}
 
 /* ----------------------------------------------------------------
 	Header Right Area
@@ -3454,6 +3479,11 @@ only screen and (                min-resolution: 2dppx) {
 /* ----------------------------------------------------------------
 	Primary Menu
 -----------------------------------------------------------------*/
+.submenu{
+	display: none;
+}
+
+
 
 .primary-menu {
 	display: -ms-flexbox;
@@ -3548,10 +3578,18 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item {
 	position: relative;
+	margin: 1rem;
 }
 
 .menu-item:not(:first-child) {
 	border-top: 1px solid #EEE;
+}
+
+.menu-item img{
+	position: relative;
+	margin: 1rem 0rem;
+	height: 45px;
+	width: 45px;
 }
 
 .menu-link {
@@ -3563,7 +3601,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-size: 0.8125rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto bold', sans-serif;
 }
 
 .menu-link span {
@@ -3607,7 +3645,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-weight: 400;
 	color: #666;
 	letter-spacing: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .sub-menu-container .menu-item:hover > .menu-link {
@@ -5553,6 +5591,95 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 -----------------------------------------------------------------*/
 
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: absolute;
+  height: relative;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #FFFFFF;
+  font-size: 65px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+  font-family: "Recoleta-SemiBold", sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-direction: alternate;
+  animation-duration: 2.5s;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
 .slider-element {
 	position: relative;
 	width: 100%;
@@ -7280,6 +7407,7 @@ body:not(.device-touch) .portfolio {
 	padding: 0;
 	font-size: 1.25rem;
 	font-weight: 600 !important;
+	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
 
@@ -7296,6 +7424,7 @@ body:not(.device-touch) .portfolio {
 .ajax-modal-title h2 {
 	font-size: 1.75rem;
 	margin-bottom: 0;
+	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
 
@@ -7315,7 +7444,7 @@ body:not(.device-touch) .portfolio {
 	padding-bottom: 60px;
 }
 
-#portfolio-ajax-title h2 { font-size: 1.75rem; }
+#portfolio-ajax-title h2 { font-size: 1.75rem; font-family: 'Recoleta-SemiBold', sans-serif;}
 
 
 /* Portfolio Single - Meta
@@ -7484,6 +7613,7 @@ body:not(.device-touch) .portfolio {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
 .entry-title.title-sm h2,
@@ -14029,10 +14159,15 @@ button.toast-close-button {
 	Footer
 -----------------------------------------------------------------*/
 
+.imgfooter img{
+	width: 80%;
+	display:block;
+	margin:auto;
+}
 
 #footer {
 	position: relative;
-	background-color: #EEE;
+	background-color:#2C5697;;
 	border-top: 5px solid rgba(0,0,0,0.2);
 }
 
