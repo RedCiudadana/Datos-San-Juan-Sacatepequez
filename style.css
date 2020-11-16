@@ -1259,7 +1259,7 @@ a.h-text-dark:hover {
 
 .pt-6,
 .py-6 {
-	padding-top: 5rem !important;
+	padding-top: 0.1rem !important;
 }
 
 .pr-6,
@@ -1269,7 +1269,7 @@ a.h-text-dark:hover {
 
 .pb-6,
 .py-6 {
-	padding-bottom: 5rem !important;
+	padding-bottom: 0.1rem !important;
 }
 
 .pl-6,
@@ -6719,7 +6719,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 0px 0;
 	overflow: hidden;
 }
 
