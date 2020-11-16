@@ -205,6 +205,14 @@ h2 { font-size: 30px;
 	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
+#h2B{
+	color: #FFF;
+}
+
+#pB{
+	color: #FFF;
+}
+
 h3 { font-size: 1.5rem; }
 
 h4 { font-size: 18px; }
@@ -3650,6 +3658,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .sub-menu-container .menu-item:hover > .menu-link {
 	font-weight: 700;
+	color: orange;
 }
 
 .sub-menu-container .menu-link div {
