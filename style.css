@@ -160,6 +160,10 @@ body {
 	font-family: 'Roboto Medium', sans-serif;
 }
 
+body #pB{
+	color: #FFF;
+}
+
 a {
 	text-decoration: none !important;
 	color: #1ABC9C;
@@ -205,11 +209,11 @@ h2 { font-size: 30px;
 	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
-#h2B{
+h2 #h2B{
 	color: #FFF;
 }
 
-#pB{
+p #pB{
 	color: #FFF;
 }
 
