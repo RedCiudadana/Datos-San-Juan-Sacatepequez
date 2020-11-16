@@ -1235,7 +1235,7 @@ a.h-text-dark:hover {
 
 .mt-6,
 .my-6 {
-	margin-top: 5rem !important;
+	margin-top: 0.1rem !important;
 }
 
 .mr-6,
@@ -1245,7 +1245,7 @@ a.h-text-dark:hover {
 
 .mb-6,
 .my-6 {
-	margin-bottom: 5rem !important;
+	margin-bottom: 0.1rem !important;
 }
 
 .ml-6,
