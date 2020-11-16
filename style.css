@@ -153,6 +153,9 @@ dl, dt, dd, ol, ul, li {
 	Typography
 -----------------------------------------------------------------*/
 
+body #pB{
+	color: #FFF;
+}
 
 body {
 	line-height: 1.5;
@@ -160,9 +163,6 @@ body {
 	font-family: 'Roboto Medium', sans-serif;
 }
 
-body #pB{
-	color: #FFF;
-}
 
 a {
 	text-decoration: none !important;
@@ -186,6 +186,9 @@ iframe {
 	Basic Layout Styles
 -----------------------------------------------------------------*/
 
+h2 #h2B{
+	color: #FFF;
+}
 
 h1,
 h2,
@@ -209,9 +212,7 @@ h2 { font-size: 30px;
 	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
-h2 #h2B{
-	color: #FFF;
-}
+
 
 p #pB{
 	color: #FFF;
