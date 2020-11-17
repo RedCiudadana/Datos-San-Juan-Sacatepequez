@@ -3912,7 +3912,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	/* Sub-Menu On-Hover Dropdown */
 	.primary-menu:not(.on-click) .menu-item:not(.mega-menu) .sub-menu-container,
 	.primary-menu:not(.on-click) .mega-menu-content {
-		display: block;
+		display: inline-block;
 		opacity: 0;
 		margin-top: 15px;
 		z-index: -9999;
@@ -5239,7 +5239,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 }
 
 .page-menu-item:hover > .page-menu-sub-menu {
-	display: block;
+	display: inline-block;
 }
 
 .page-menu-sub-menu .page-menu-item > a {
@@ -14179,6 +14179,7 @@ button.toast-close-button {
 }
 
 #footer {
+	padding-bottom: 0.5rem;
 	position: relative;
 	background-color:#2C5697;;
 	border-top: 5px solid rgba(0,0,0,0.2);
