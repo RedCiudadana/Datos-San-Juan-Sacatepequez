@@ -5810,7 +5810,7 @@ body:not(.stretched) .slider-parallax .slider-inner { left: auto; }
 .swiper_wrapper .swiper-slide {
 	position: relative;
 	margin: 0;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .swiper-slide-bg {
