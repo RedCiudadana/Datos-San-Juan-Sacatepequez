@@ -18,8 +18,7 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/imports/sliders.css" type="text/css" />
-	<link rel="stylesheet" href="styleslider.css">
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -102,44 +101,45 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-autoplay="7000" data-speed="650" data-loop="true">
-			<div class="slider-inner">
-
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide-bg">
-							<div class="swiper-slide-bg"><img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-03.png"></div>
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<h2 data-animate="fadeInUp" style="color: #FFF">San Juan Sacatepéquez en Datos</h2>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide-bg">
-							<div class="swiper-slide-bg"><img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-04.png"></div>
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<h2 data-animate="fadeInUp" style="color: #FFF">San Juan Sacatepéquez en Datos</h2>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide-bg">
-							<div class="swiper-slide-bg"><img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-06.png"></div>
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<h2 data-animate="fadeInUp" style="color: #FFF">San Juan Sacatepéquez en Datos</h2>
-								</div>
-							</div>
-						</div>
+		<div class="swiper-container">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">
+					<img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-03.png">
+					<div style="position: absolute; top: 0; height: 42vw; width: 100vw; text-align: center; display: flex;">
+						<h1 class="w-100 text-white m-auto">
+							San Juan Sacatepéquez en Datos
+						</h1>
 					</div>
-					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-					<div class="slide-number"><div class="slide-number-current"></div><span>/</span><div class="slide-number-total"></div></div>
-					<div class="swiper-pagination"></div>
 				</div>
-
+				<div class="swiper-slide">
+					<img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-04.png">
+					<div style="position: absolute; top: 0; height: 42vw; width: 100vw; text-align: center; display: flex;">
+						<h1 class="w-100 text-white m-auto">
+							San Juan Sacatepéquez en Datos
+						</h1>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<img src="ELEMENTOS/ELEMENTOS/SLIDER/SLIDER-06.png">
+					<div style="position: absolute; top: 0; height: 42vw; width: 100vw; text-align: center; display: flex;">
+						<h1 class="w-100 text-white m-auto">
+							San Juan Sacatepéquez en Datos
+						</h1>
+					</div>
+				</div>
 			</div>
-		</section>
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+		
+			<!-- If we need navigation buttons -->
+			<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+			<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+		
+			<!-- If we need scrollbar -->
+			<div class="swiper-scrollbar"></div>
+		</div>
 		<!--CONTENIDO------------------------------------------------
 			------------------------------------------------------->
 		<section id="content">
@@ -413,8 +413,6 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
-	<script src="js/plugins.flexslider.js"></script>
-	<script src="js/components/rangeslider.min.js"></script>
 
 	<!-- TinyMCE Plugin -->
 	<script src="js/components/tinymce/tinymce.min.js"></script>
@@ -422,8 +420,6 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-
-	<script src=""></script>
 
 	<script>
 		jQuery(document).ready( function(){
@@ -451,6 +447,14 @@
 		  });
 		});
 	</script>
-
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			navigation: {
+				nextEl: '.slider-arrow-right',
+				prevEl: '.slider-arrow-left',
+			},
+			loop: true
+		});
+	</script>
 	</body>
-	</html>
+</html>
