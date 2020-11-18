@@ -205,7 +205,8 @@ h6 { margin-bottom: 20px; }
 
 h1 { font-size: 36px; }
 
-h2 { font-size: 30px; 
+h2 { 
+	font-size: 35px; 
 	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
@@ -14183,7 +14184,7 @@ button.toast-close-button {
 	padding-bottom: 0.5rem;
 	position: relative;
 	background-color:#2C5697;;
-	border-top: 5px solid rgba(0,0,0,0.2);
+	border-top: 0px solid rgba(0,0,0,0.2);
 }
 
 @media (min-width: 992px) {
