@@ -290,7 +290,7 @@ small { font-family: 'Roboto', sans-serif; }
 		font-size: calc( 1.575rem + 3.9vw );
 	}
 	.display-4 {
-		font-size: calc( 1.475rem + 2.7vw );
+		font-size: 35px;
 	}
 }
 
