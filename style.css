@@ -14176,6 +14176,7 @@ button.toast-close-button {
 	width: 80%;
 	display:block;
 	margin:auto;
+	padding-top: 80px;
 }
 
 #footer {
