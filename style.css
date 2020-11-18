@@ -13377,7 +13377,7 @@ h3.titular-title { font-size: 2rem; }
 
 .heading-block h1 + span { font-size: 1.5rem; }
 
-.heading-block h2 + span { font-size: 1.25rem; }
+.heading-block h2 + span { font-size: 35px; }
 
 .heading-block h3 + span,
 .heading-block h4 + span { font-size: 1.25rem; }
