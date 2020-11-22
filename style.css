@@ -3335,7 +3335,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	.sticky-header .header-wrap-clone {
-		display: block;
+		display: none;
 	}
 
 	.sticky-header .menu-container {
