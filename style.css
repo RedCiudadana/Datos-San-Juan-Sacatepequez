@@ -171,7 +171,7 @@ a {
 
 a:hover { color: #222; }
 
-a img { border: none; }
+a img { border: none; height: 60px;}
 
 img { max-width: 100%; }
 
@@ -3335,7 +3335,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	.sticky-header .header-wrap-clone {
-		display: none;
+		display: block;
 	}
 
 	.sticky-header .menu-container {
