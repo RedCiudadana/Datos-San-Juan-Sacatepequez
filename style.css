@@ -5799,6 +5799,10 @@ body:not(.stretched) .slider-parallax .slider-inner { left: auto; }
 
 /* Swiper Slider
 -----------------------------------------------------------------*/
+$('.carousel').carousel({
+  interval: 2000
+})
+
 
 .swiper_wrapper {
 	position: relative;
