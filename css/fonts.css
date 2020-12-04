@@ -15,10 +15,8 @@ small,
 .font-body { font-family: 'Lato', sans-serif !important; }
 
 
-h1,
 h3,
 h5,
-h6,
 #logo a,
 .menu-link,
 .mega-menu-style-2 .mega-menu-title > .menu-link,
@@ -35,7 +33,7 @@ label,
 .wedding-head,
 .font-primary { font-family: 'Poppins', sans-serif !important; }
 
-h2,h4 { font-family: 'Recoleta-Semibold', sans-serif !important; }
+h1,h2,h4 { font-family: 'Recoleta-Semibold', sans-serif !important; }
 
 .entry-link span,
 .entry blockquote p,
