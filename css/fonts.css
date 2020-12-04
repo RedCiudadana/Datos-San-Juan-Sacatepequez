@@ -17,7 +17,6 @@ small,
 
 h1,
 h3,
-h4,
 h5,
 h6,
 #logo a,
@@ -36,7 +35,7 @@ label,
 .wedding-head,
 .font-primary { font-family: 'Poppins', sans-serif !important; }
 
-h2 { font-family: 'Recoleta-Semibold', sans-serif !important; }
+h2,h4 { font-family: 'Recoleta-Semibold', sans-serif !important; }
 
 .entry-link span,
 .entry blockquote p,

@@ -166,7 +166,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+
 }
 
 a:hover { color: #222; }
@@ -190,13 +190,21 @@ iframe {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
 	color: #444;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
+	font-family: 'Roboto bold', sans-serif;
+}
+
+
+h4{
+	color: #444;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 4px 0;
 	font-family: 'Roboto bold', sans-serif;
 }
 
@@ -210,10 +218,28 @@ h2 {
 	font-family: 'Recoleta-SemiBold', sans-serif;
 }
 
+h4 { 
+	font-family: 'Recoleta-SemiBold', sans-serif;
+	text-align: center;
+}
 
 
 p #pB{
 	color: #FFF;
+}
+
+/*----------- CAJA ----------- */
+.caja { 
+	color: #ffffff;
+    font-size: 30px;
+    font-family: 'Recoleta-SemiBold';
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 25px;
+    border: 2px solid black;
+    box-sizing: content-box;
+    width: 50%;
+    margin-left: 25%;
 }
 
 h2 #h2B{
@@ -278,6 +304,9 @@ form { margin-bottom: 2px; }
 
 small { font-family: 'Roboto', sans-serif; }
 
+.meto{
+	text-decoration: underline black;
+}
 
 @media (max-width: 1200px) {
 	.display-1 {
@@ -1268,7 +1297,7 @@ a.h-text-dark:hover {
 
 .pt-6,
 .py-6 {
-	padding-top: 3rem !important;
+	padding-top: 2.5rem !important;
 }
 
 .pr-6,
@@ -1278,7 +1307,7 @@ a.h-text-dark:hover {
 
 .pb-6,
 .py-6 {
-	padding-bottom: 1rem !important;
+	padding-bottom: 2.5rem !important;
 }
 
 .pl-6,
