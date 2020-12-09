@@ -32,9 +32,14 @@
 	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 	<!-- Forum Custom Fonts -->
 
+	<!--Intro JS-->
+	<link rel="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.1.0/intro.min.js">
+
+	
+
 	<!-- Document Title
 	============================================= -->
-	<title>Datos San Juan Sacatepequez| Red Ciudadana</title>
+	<title>Datos San Juan Sacatepequez | Red Ciudadana</title>
 
 </head>
 
@@ -47,7 +52,7 @@
 		<!-- Header
 		============================================= -->
 		<header id="header" class="border-0" data-mobile-sticky="true">
-			<div id="header-wrap">
+			<div data-step="1" data-intro="Esta sección podemos encontrar el índice de contenidos" id="header-wrap" >
 				<div class="container" >
 					<div class="header-row">
 
@@ -161,7 +166,7 @@
 		<section id="content">
 			<div class="content-wrap">
 
-				<div class="section py-6 my-6" style="background-color: #FFFFFF" id="sec1">
+				<div class="section py-6 my-6" style="background-color: #FFFFFF" id="sec1" data-step="2" data-intro="Esta sección es el primer parrafo">
 					<div class="container">
 						<div class="row align-items-center col-mb-50">
 							<div class="col-md-6">
@@ -169,7 +174,8 @@
 							</div>
 							<div class="col-md-6">
 								<h2 class="display-4 mb-4 font-weight-bold" style="font-size: 35px">San Juan Sacatepéquez</h2>
-								<p id="p1">San Juan Sacatepéquez es un municipio del departamento de Guatemala con grandes contrastes. Por una parte, afronta desafíos complejos de desarrollo relacionados con problemas estructurales, pero por otra parte tiene grandes potencialidades en su población y territorio. Estas potencialidades pueden ser catalizadas e impulsadas a través de procesos de innovación y colaboración multi-actor que se pueden encauzar hacia el desarrollo sostenible.</p>
+								<!--BOTON INTRO JS  button onclick="introJs().start();">Intro JS</button-->
+								<p id="p1">San Juan Sacatepéquez es un municipio del departamento de Guatemala con grandes contrastes. Por una parte, afronta desafíos complejos de desarrollo relacionados con problemas estructurales, pero por otra parte tiene grandes potencialidades en su población y territorio. Estas potencialidades pueden ser catalizadas e impulsadas a través de procesos de innovación y colaboración multi-actor que se pueden encauzar hacia el desarrollo sostenible.</p><br>
 								<p id="p1" >El municipio tiene altos niveles de pobreza -40.87%- y extrema -9.48% (Segeplan, 2006), con una amplia manifestación de problemas de desnutrición crónica 48.6% (2012), y aguda, con 223 casos en 2019 en el noroccidente del Departamento de Guatemala ), violencia de diferentes tipos registrando 231 delitos en 2018, incluyendo lesiones, robos y hurtos, homicidios, violencia intrafamiliar y delitos sexuales (MINGOB, 2014), contaminación. Deforestación e infraestructura en mal estado.  <a class="meto" href="metodologia.html" >Ver más</a></p><br>
 							</div>
 						</div>
@@ -262,7 +268,7 @@
 						<div class="row align-items-center col-mb-50">
 							<div class="col-md-6">
 								<h2 class="display-4 mb-4 font-weight-bold" style="color: #FFF;font-size: 35px" >Índice de Pobreza Multidimensional (IPM)</h2>
-								<p id="pB">El Índice de Pobreza Multidimensional (IPM) identifica múltiples carencias a nivel de los hogares y las personas en los ámbitos de la salud, la educación y el nivel de vida. Utiliza microdatos de encuestas de hogares, y, al contrario que el Índice de Desarrollo Humano ajustado por la Desigualdad, todos los indicadores necesarios para calcularlo deben extraerse de la misma encuesta.</p>
+								<p id="pB">El Índice de Pobreza Multidimensional (IPM) identifica múltiples carencias a nivel de los hogares y las personas en los ámbitos de la salud, la educación y el nivel de vida. Utiliza microdatos de encuestas de hogares, y, al contrario que el Índice de Desarrollo Humano ajustado por la Desigualdad, todos los indicadores necesarios para calcularlo deben extraerse de la misma encuesta.</p><br>
 								<p id="pB">El IPM de San Juan Sacatepéquez es de 0.127 puntos de 100. Este nivel evidentemente es preocupante y refleja tanto la prevalencia de las carencias multidimensionales como su intensidad, es decir, cuántas carencias sufren las personas al mismo tiempo en este municipio.  <a class="meto" href="metodologia.html" >Ver más</a></p></p>
 							</div>
 							<div class="col-md-6">
@@ -365,7 +371,7 @@
 							</div>
 							<div class="col-md-6">
 								<h2 class="display-4 mb-4 font-weight-bold" style="font-size: 35px">Vivienda</h2>
-								<p id="p3">El Censo de Población y Vivienda 2010 es un recuento de la población y las viviendas para generar información estadística confiable, veraz y oportuna acerca de la magnitud, estructura, crecimiento, distribución de la población y de sus características económicas, sociales y demográficas, que sirva de base para la elaboración de planes generales de desarrollo y la formulación de programas y proyectos a cargo de organismos de los sectores público y privado.</p></p>
+								<p id="p3">El Censo de Población y Vivienda 2010 es un recuento de la población y las viviendas para generar información estadística confiable, veraz y oportuna acerca de la magnitud, estructura, crecimiento, distribución de la población y de sus características económicas, sociales y demográficas, que sirva de base para la elaboración de planes generales de desarrollo y la formulación de programas y proyectos a cargo de organismos de los sectores público y privado.</p></p><br>
 								<p id="p3">Determinar el volumen y características de las unidades de vivienda en que habita la población ecuatoriana, con miras a evaluar las condiciones de vida y los requerimientos específicos de vivienda y servicios inherentes.  <a class="meto" href="metodologia.html">Ver más</a></p></p>
 							</div>
 						</div>
@@ -519,5 +525,9 @@
 			loop: true
 		});
 	</script>
+
+	<!--Script de Intro js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.1.0/intro.min.js" integrity="sha512-8HbqTH7QzK30vhgVF/hTJ4loXwV85UU9vjI4nK04AfdOFzl8zG7b3LLAEHDmvIM8I0rvserMXmQx4Hw+kRknjw==" crossorigin="anonymous"></script>
+
 	</body>
 </html>

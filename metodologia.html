@@ -32,6 +32,10 @@
 	<link rel="stylesheet" href="css/fonts.css" type="text/css" />
 	<!-- Forum Custom Fonts -->
 
+	<!--Intro JS-->
+	<script type="text/javascript" src="intro.js/intro.js"></script>
+	<link href="intro.js/introjs.css" rel="stylesheet"></link>
+
 	<!-- Document Title
 	============================================= -->
 	<title>Metodología San Juan Sacatepequez| Red Ciudadana</title>
@@ -47,7 +51,7 @@
 		<!-- Header
 		============================================= -->
 		<header id="header" class="border-0" data-mobile-sticky="true">
-			<div id="header-wrap">
+			<div id="header-wrap" data-step="1" data-intro="Esta sección podemos encontrar el índice de contenidos">
 				<div class="container" >
 					<div class="header-row">
 
@@ -108,6 +112,8 @@
 
 		<!--CONTENIDO------------------------------------------------
 			------------------------------------------------------->
+		<button onclick="introJs().start();">?</button>
+		
 		<section id="content">
 			<div class="content-wrap">
 
