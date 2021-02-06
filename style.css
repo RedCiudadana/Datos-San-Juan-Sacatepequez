@@ -16702,3 +16702,6 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
+.plain{
+	text-decoration: none!important;
+}
