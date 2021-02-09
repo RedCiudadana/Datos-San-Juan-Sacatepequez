@@ -16705,3 +16705,46 @@ label.checkbox { padding-left: 20px; }
 .plain{
 	text-decoration: none!important;
 }
+
+
+.centrado{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+.centrado2{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+.centrado3{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    z-index: 5;
+}
+
+.centrado5{
+	position: absolute;
+	display: block; 
+}
+
+.centrado4{
+	justify-content: center;
+}
+
+.centrado6{
+	
+}
+
+.fontsize40px{
+	font-size: 40px;
+}
