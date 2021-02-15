@@ -16749,3 +16749,7 @@ label.checkbox { padding-left: 20px; }
 	font-size: 40px;
 }
 
+.ps-3{
+	padding-left: 5%;
+	padding-right: 5%;
+}
