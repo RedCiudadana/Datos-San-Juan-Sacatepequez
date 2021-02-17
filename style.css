@@ -16753,3 +16753,13 @@ label.checkbox { padding-left: 20px; }
 	padding-left: 5%;
 	padding-right: 5%;
 }
+
+.ps-0{
+	padding-left: 1%!important;
+	padding-right: 1%!important;
+}
+
+.ms-3{
+	margin-left: 5%!important;
+	margin-right: 5%!important;
+}
