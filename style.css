@@ -16802,3 +16802,34 @@ label.checkbox { padding-left: 20px; }
 .push {
     margin-left: auto!important;
 }
+
+.nav-item{
+	padding-top: 20px;
+	margin-bottom: -10px!important;
+}
+
+.nav-link{
+	color: #fff!important;
+}
+
+.nav-link:hover{
+	color: orange!important;
+}
+
+.nav-item img{
+	padding-bottom: 10px!important;
+	padding-left: 10px;
+	padding-top: 0!important;
+}
+
+.tc-orange:hover{
+	color: orange!important;
+}
+
+@media (max-width: 992px){
+	.dropdown-menu{
+		display: none!important;
+	}
+}
+
+
