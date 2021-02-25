@@ -16804,9 +16804,14 @@ label.checkbox { padding-left: 20px; }
 }
 
 .nav-item{
-	padding-top: 20px;
+	padding-top: 10px;
 	margin-bottom: -10px!important;
 }
+.nav-item2{
+	padding: 0vw 0px 0vw 0vw;
+	
+}
+
 
 .nav-link{
 	color: #fff!important;
@@ -16816,14 +16821,17 @@ label.checkbox { padding-left: 20px; }
 	color: orange!important;
 }
 
-.nav-item img{
-	padding-bottom: 10px!important;
-	padding-left: 10px;
-	padding-top: 0!important;
+.nav-link img{
+	padding: 0!important;
 }
 
 .tc-orange:hover{
 	color: orange!important;
+}
+
+.w-40{
+	max-width: 40px;
+	height: auto;
 }
 
 @media (max-width: 992px){
@@ -16831,5 +16839,4 @@ label.checkbox { padding-left: 20px; }
 		display: none!important;
 	}
 }
-
 
