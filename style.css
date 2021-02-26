@@ -16775,6 +16775,11 @@ label.checkbox { padding-left: 20px; }
 	padding-right: 2%;
 }
 
+.h-80{
+	height: 80px!important;
+	padding-right: 2%;
+}
+
 .h-100{
 	height: 100%;
 	width: auto;
@@ -16834,9 +16839,18 @@ label.checkbox { padding-left: 20px; }
 	height: auto;
 }
 
+.h-44{
+	max-height: 44px ;
+	width: auto;
+}
+
 @media (max-width: 992px){
 	.dropdown-menu{
 		display: none!important;
 	}
+
 }
 
+.header-clone{
+	height: 3.5vw;
+}
