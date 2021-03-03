@@ -16844,9 +16844,11 @@ label.checkbox { padding-left: 20px; }
 	width: auto;
 }
 
+
 @media (max-width: 992px){
 	.dropdown-menu{
 		display: none!important;
+		width: 100%;
 	}
 
 }
